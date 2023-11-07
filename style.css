@@ -1,0 +1,111 @@
+
+* {
+        text-transform: capitalize;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    a:hover {
+        border-bottom: 2px solid #31536d;
+        font-weight: bolder;
+        color: #31536d;
+        transition: 0.5s all ease-out;
+    }
+
+    header {
+        background-image: linear-gradient(270deg, rgba(66, 128, 85, 0.7), #2c4caa99), url('https://wallpaperaccess.com/full/1426870.png');
+        background-position: top;
+        background-size: cover;
+        text-transform: capitalize;
+    }
+
+    .media {
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+        margin: 40px 0;
+        background-repeat: no-repeat;
+    }
+
+    .mycontainer {
+        padding: 150px;
+
+    }
+
+    a {
+        padding: 20px;
+        margin-left: 30px;
+
+
+    }
+
+    .card-cover {
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+    }
+
+    .signup {
+        background-color: #31536d;
+        padding: 50px 100px;
+        border-radius: 5px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-weight: bolder;
+        word-spacing: 10px;
+        font-size: 60px;
+
+    }
+
+    .check {
+        margin: 20px;
+    }
+
+    .explore {
+        word-spacing: 5px;
+        margin: 10px 50px;
+        font-weight: bold;
+    }
+
+    .built {
+        margin: 30px 10px;
+        color: grey;
+    }
+
+    .back-photo {
+        height: 250px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 5px;
+    }
+
+    .top {
+        margin: 90px 50px;
+    }
+
+    .photo {
+        height: 400px;
+    }
+    img:hover{
+    transform: scale(1.1);
+
+    transition: 0.6s all ease-in-out;
+    cursor: pointer;
+
+    }
+    button:hover{
+        transform:scale(1.1);
+        transition: 0.6s all ease;
+    cursor: pointer;
+        
+    }
+
